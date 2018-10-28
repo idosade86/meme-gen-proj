@@ -1,0 +1,125 @@
+
+
+/* THIS IS NOT IN USEEEE */
+
+
+footer{
+    background-color: rgb(75, 172, 139);
+    border: 1px solid black; 
+
+}
+
+.person{
+    border: 1px solid black;
+}
+
+.footer-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-footer{
+    background-color: blue;
+    width: 85%;
+    /* height: 50%; */
+    margin: 0 auto;
+}
+
+.footer-img{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.in-touch-container{
+    background: rgb(82, 80, 80);
+    width: 100%;
+    color: aliceblue;
+    height: fit-content;
+
+
+}
+
+.in-touch-content{
+    margin: 0 auto;
+    background: green;
+    height: 100%;
+    width: 85%;
+    background: rgb(46, 45, 45);
+
+}
+
+input{
+    display: block;
+}
+
+input:not(:last-child){
+    margin-bottom: 10px;
+}
+
+
+.footer-inputs input:last-child{
+    height: 100px;
+}
+
+.contact-details{
+    height: 35px;
+    width: 92px;
+    margin-top: 59px;
+}
+
+.footer-inputs > *{
+    width: 50%;
+    /* height: 100px; */
+
+}
+
+.footer-txt{
+    width:200px;
+    height: 200px;
+    line-height: 30px;
+}
+
+.footer-details{
+    width: 40%;
+    color:whitesmoke;
+}
+
+.detailes{
+    background: rgb(161, 157, 157);
+    border: none;
+    color: white;
+}
+
+.touch-header{
+    margin: 0;
+    margin-top: 36px;
+}
+
+
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 40%;
+    align-self: center;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover{
+    color:rgb(149, 233, 66);
+}
+
+
+@media (max-width:680px){
+.in-touch-container{
+    flex-direction: column  ;
+}
+
+}

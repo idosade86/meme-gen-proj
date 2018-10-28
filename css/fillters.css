@@ -1,0 +1,36 @@
+
+
+.serch-container .filter-letters-input{   
+    height: 28px;
+    width: 140px;
+    margin: 3%;
+    margin-top: 18px;
+
+}
+
+.filter-list{
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filter-list-input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background: none;
+    border-bottom: 3px solid black;
+}
+
+
+
+.popluar-words-container{
+    padding: 20px;
+    background: burlywood;
+    text-align: center;
+}
+
+.popular-item{
+    text-decoration: none;
+    color: antiquewhite;
+}

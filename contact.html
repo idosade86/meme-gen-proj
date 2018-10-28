@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
+    <link rel="stylesheet" href="css/helpers.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <a href="index.html" class="back">&#128281</a>
+    <div class="in-touch-container flex">
+        <section class="contact-inputs flex column">
+            <h4>Contact Us</h4>
+            <span class="input-group-text">Your E-mail</span>
+            <input type="text" class="form-control user-email" placeholder="@example.com" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+            <span class="input-group-text">Subject</span>
+            <input type="text" class="form-control user-subject" placeholder="Type subject here" aria-label="Recipient's username"
+                aria-describedby="basic-addon2">
+
+            <div class="input-group-prepend">
+                <span class="input-group-text">Type a message</span>
+            </div>
+            <textarea class="form-control user-text" placeholder="You can type here" aria-label="With textarea"></textarea>
+            <button type="button" class="btn btn-warning" onclick="sendInfo()">Submit</button>
+        </section>
+    </div>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+</html>

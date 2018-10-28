@@ -1,0 +1,275 @@
+
+/* THIS FILE IS NOT IN USEEEEE */
+
+
+.continer-modal{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(230, 219, 219);
+    position: fixed;
+    top: 100%;
+    transition: all .6s;
+}
+
+.scatch{
+    height: 300px;
+    width: 600px
+}
+.rela{
+    /* position: relative; */
+}
+
+.continer-modal.open{
+    top: 0;
+}
+
+.screen-modal{
+    height: 100%;
+    width: 100%;
+    /* position: fixed; */
+    top: 0%;
+    background-color: rgb(230, 219, 219);
+    opacity: 0.7;
+    display: none;
+}
+
+
+
+.modal-tools{
+    visibility: hidden;
+    bottom: 20px;
+    /* margin-top: 70px; */
+    /* transform: translate(0, calc(100% - 60px)); */
+    /* height: 150px; */
+    position: relative;
+    margin-left: 10px;
+    width: 90%;
+    margin-top: 34%;
+    /* transition: .6s; */
+} 
+
+.manage-line{
+    /* margin-top: 150px; */
+}
+
+.modal-tools.open{
+    visibility:visible;
+     transition: .6s;
+    /* transform: translate(0); */
+} 
+
+.modal-tools .first-text-tools{
+    width:80%;
+}
+/* 
+.modal-tools .text-input{
+    width:80%;
+
+} */
+
+
+.modal-tools .canvas-tool {
+    width:80%;
+
+}
+ 
+ .modal-tools .text-dir-align{
+    width:80%;
+
+ }
+
+.first-text-tools{
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.textIdx{
+    background: none;
+    width: 20px;
+    height: 17px;
+    font-size: 16px;
+    padding: 2px;
+    text-align: center;
+    border: none;    
+}
+
+.save-back-container{
+    margin-bottom: 15px;
+}
+
+
+.save{
+    float: right;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+
+#canvas{
+width: 70%   ;
+ /* height: auto;  */
+    background: beige;
+    /* margin-left: 6%; */
+    max-height: auto;
+    border: 5px gray solid;
+    /* position: absolute; */
+    /* top: 7%; */
+}
+
+@media(max-width:650px){
+    #canvas{
+        /* width: 500; */
+        
+    }
+    .scatch{
+        /* width: 100%; */
+        margin-top: 10px;
+        /* position: relative; */
+        /* margin-left: 60px;; */
+    }
+    .test{
+        flex-direction: column;
+    }
+    /* .tools-container{
+        width: 80%;
+    height: 300px;
+    } */
+}
+
+.tools-container{
+    width: 400px;
+    height: 300px;
+    /* margin-top: 50px; */
+    /* width: 300px; */
+    align-items: center;
+    margin: 0 auto;
+    /* position: relative; */
+    background-color: yellow;
+    margin-top: 10%;
+
+  
+}
+.abs{
+    /* position: absolute; */
+}
+.canvas-tool{
+    /* padding: 12px 18px;
+    border: solid 1px black;
+    height: 60px;
+    width: 110px;
+    border-radius: 5px;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+    transition:all .6s; */
+
+
+    height: 30px;
+    text-align: center;
+    width:313px;
+    transition: all .6s;
+    /* display: flex; */
+    flex-direction: row;
+
+
+}
+#align-center, #align-left, #align-right, .btn-color ,.font-resize-btn,
+ #left, #up, #right, #down, #font, .nxt-line, .prev-line
+{
+  background-color: #868f98;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 20%;
+  border: none;
+  outline: none;
+  color: #FFF;
+  padding: 0;
+  font-size: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.nxt-line, .prev-line{
+    border-radius: 40px;
+    width: 70px;
+}
+
+
+.prev-line, .nxt-line{
+    width: 95px;
+}
+
+#font{
+    width: 75px;
+    padding-left: 12px;
+}
+
+.shadow{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 23px;
+    /* margin-right: 38px; */
+}
+.shadow-checkbox{
+    display: none;
+    /* width: 20px;
+    height: 18px; */
+}
+.text-input{
+    height: 30px;
+    width: 70%;
+    margin: 0 auto;
+    /* margin-top: 20px; */
+    background: #5f8f683b;
+    border: none;
+ }
+
+.canvas-tool{
+    transition: .6s;
+}
+
+.canvas-tool>*:hover{
+    color: rgb(187, 148, 148);
+}
+
+.text-dir-align{
+    margin-top: 15px;
+    width: 315px;
+}
+
+.delete-txt{
+    font-size: 26px;
+    color: red;
+    font-weight: 900;
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    /* position: absolute; */
+    bottom: 51%;
+    left: 79%;
+}
+
+/* 
+.btn-color{
+    border: 1px solid blue;
+    border-radius: 10px;
+} */
+
+.btn-clear{
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 40%;
+    background: none;
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+}

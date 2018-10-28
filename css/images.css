@@ -1,0 +1,32 @@
+
+h3{
+    width: 150px;
+}
+
+.img{
+    width: 175px;
+    height: 100%;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+    cursor: pointer;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+  
+}
+
+.imgs-list{
+    margin: 0 25px;
+    margin-top: 30px;
+
+}
+
+ul.imgs-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    /* height: 100vh; */
+    grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: 150px;
+}
+
